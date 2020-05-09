@@ -1,0 +1,176 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста  #212121;
+ */
+/* основной фон  #FFFFFF  */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
+.body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+/* Хедер */
+
+.header .logo {
+  color: var(--title-text-color);
+}
+
+.header .accent {
+  color: var(--accent-color);
+}
+
+.header .logo:focus {
+  color: var(--accent-color);
+}
+
+.header .navigation {
+  color: var(--title-text-color);
+}
+
+.navigation .link:hover,
+.navigation .link:focus {
+  color: var(--accent-color);
+}
+
+.navigation .link {
+  color: inherit;
+}
+
+.adres .link:hover,
+.adres .link:focus {
+  color: var(--accent-color);
+}
+
+.adres .link {
+  color: inherit;
+}
+
+/* Герой */
+
+.hero {
+  color: var(--primary-white-color);
+  background-color: var(--primary-text-color);
+}
+
+.hero .link {
+  background-color: var(--accent-color);
+}
+.hero .link:focus {
+  color: var(--accent-color);
+}
+
+.hero .link {
+  color: inherit;
+}
+
+/* Секция Преимуществ компании */
+
+.advantages .title {
+  color: var(--title-text-color);
+}
+
+/* Cекция Сфер Деятельности */
+
+.activity .grand-title,
+.activity .title {
+  color: var(--title-text-color);
+}
+
+/* Секция Команды */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team .grand-title,
+.team .title {
+  color: var(--title-text-color);
+}
+
+.team .link {
+  color: inherit;
+}
+
+.team .link:hover,
+.team .link:focus {
+  color: var(--accent-color);
+}
+
+/* Секция Постоянных клиентов */
+
+.clients .title {
+  color: var(--title-text-color);
+}
+
+.clients .link {
+  color: inherit;
+}
+
+.clients .link:hover,
+.clients .link:focus {
+  color: var(--accent-color);
+}
+
+/* Секция Футер */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .logo {
+  color: var(--primary-white-color);
+}
+
+.footer .logo:focus {
+  color: var(--accent-color);
+}
+
+.footer .accent {
+  color: var(--accent-color);
+}
+
+.city {
+  color: #ffffff;
+}
+
+.adress-footer .link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.adress-footer .telephone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .title {
+  color: #ffffff;
+}
+
+.join .link {
+  color: rgba(255, 255, 255, 0.1);
+}
+
+.join .link:hover,
+.join .link:focus {
+  color: var(--accent-color);
+}
+
+.form .link {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.form .link:focus {
+  background-color: var(--accent-color);
+}
+
+.developed-by {
+  color: rgba(255, 255, 255, 0.4);
+}
