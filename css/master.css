@@ -12,27 +12,56 @@
   --primary-white-color: #ffffff;
 }
 
-.body {
+body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+address {
+  font-style: normal;
+}
+
+.logo {
+  color: var(--title-text-color);
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.logo:focus,
+.logo:hover {
+  color: var(--accent-color);
+}
+
+.accent {
+  color: var(--accent-color);
 }
 
 /* Хедер */
 
-.header .logo {
-  color: var(--title-text-color);
-}
-
-.header .accent {
-  color: var(--accent-color);
-}
-
-.header .logo:focus {
-  color: var(--accent-color);
-}
-
 .header .navigation {
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .navigation .link:hover,
@@ -51,6 +80,18 @@
 
 .adres .link {
   color: inherit;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.adres p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /* Герой */
@@ -60,8 +101,23 @@
   background-color: var(--primary-text-color);
 }
 
+.hero p {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
 .hero .link {
   background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .hero .link:focus {
   color: var(--accent-color);
@@ -77,11 +133,33 @@
   color: var(--title-text-color);
 }
 
+.advantages h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.advantages p {
+  font-size: 14px;
+  line-height: 1.71px;
+}
+
 /* Cекция Сфер Деятельности */
 
 .activity .grand-title,
 .activity .title {
   color: var(--title-text-color);
+}
+
+.activity .grand-title {
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.activity .title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 /* Секция Команды */
@@ -93,6 +171,22 @@
 .team .grand-title,
 .team .title {
   color: var(--title-text-color);
+}
+
+.team .grand-title {
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.team .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.cpecialazed {
+  font-size: 16px;
+  line-height: 1.19;
 }
 
 .team .link {
@@ -108,6 +202,8 @@
 
 .clients .title {
   color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.17;
 }
 
 .clients .link {
@@ -126,31 +222,37 @@
 }
 
 .footer .logo {
-  color: var(--primary-white-color);
-}
-
-.footer .logo:focus {
-  color: var(--accent-color);
-}
-
-.footer .accent {
-  color: var(--accent-color);
+  color: #ffffff;
 }
 
 .city {
   color: #ffffff;
+
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .adress-footer .link {
   color: rgba(255, 255, 255, 0.6);
+
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .adress-footer .telephone {
   color: rgba(255, 255, 255, 0.6);
+
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .footer .title {
   color: #ffffff;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .join .link {
@@ -165,6 +267,11 @@
 .form .link {
   color: #ffffff;
   background-color: var(--accent-color);
+
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
 .form .link:focus {
@@ -173,4 +280,6 @@
 
 .developed-by {
   color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  line-height: 2;
 }
